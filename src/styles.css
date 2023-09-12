@@ -128,3 +128,18 @@ img.socialIcon {
   height: 30px;
   width: 30px;
 }
+/* add a slide in animation */
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-5%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slideInLeft {
+  animation: slideInLeft 0.5s ease-out;
+}

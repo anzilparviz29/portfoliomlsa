@@ -31,10 +31,10 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Augumented Reality Project",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "An Model Target AR app devoloped using Unity for a Industry.",
+    url: "https://www.linkedin.com/posts/mohammad-anzil-parveez-bab619244_augmentedreality-interactivemodeling-industrialinnovation-activity-7076081903782555649-EYyY?utm_source=share&utm_medium=member_desktop"
   },
   {
     title: "Web Development for Beginners",
@@ -46,7 +46,7 @@ const projectList = [
     title: "My Resume Site",
     description:
       "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+    url: "https://github.com/anzilparviz29/portfoliomlsa",
   },
   {
     title: "GitHub Codespaces and github.dev",
@@ -59,12 +59,12 @@ const projectList = [
 const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
-      <h2 style={{ textAlign: "center" }}>Portfolio</h2>
-      <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
+      <h2 style={{ textAlign: "center",color:"black"}}>Portfolio</h2>
+      <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem",backgroundImage:'../images/Connecting dots (6)'}}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{ height: "90%", width: "100%", objectFit: "cover", animation: "1s ease-out 0s 1 slideIn" }}
             alt={imageAltText}
           />
         </div>
